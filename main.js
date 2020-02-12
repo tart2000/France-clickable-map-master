@@ -50,7 +50,7 @@ function counting() {
 	dpts = $('.dpt').length; 
 	done = blagues.length;
 	$('#progress').attr("aria-valuenow" , done);
-	$("#progress").css("width", dpts/done*100);
+	$("#progress").css("width", done/dpts*100+'%');
 }
 
 function clearAll() {
