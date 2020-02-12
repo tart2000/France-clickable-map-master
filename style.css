@@ -25,3 +25,9 @@ svg
     fill : coral;
 }
 
+body {
+    background-image: url('dot-grid.png');
+}
+.progress, .progress-bar {
+    border-radius: 0 !important;
+}
