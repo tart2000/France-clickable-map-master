@@ -27,7 +27,13 @@ svg
 
 body {
     background-image: url('dot-grid.png');
+    padding-bottom: 80px;
+    position: relative;
 }
 .progress, .progress-bar {
     border-radius: 0 !important;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
 }
