@@ -1,0 +1,27 @@
+svg
+{
+    background : cover;
+}
+
+.divmap {
+    width : 100%;
+    margin : auto;
+}
+
+.divmap path{
+    fill: brown;
+    stroke : gold;
+    stroke-width: 1px;
+    transition : fill 0.3s;
+}
+.divmap path.done {
+    fill: green !important;
+    stroke : gold;
+    stroke-width: 1px;
+    transition : fill 0.3s;
+}
+
+.divmap :hover{
+    fill : coral;
+}
+
