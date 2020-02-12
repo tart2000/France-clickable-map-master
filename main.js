@@ -28,7 +28,7 @@ $('.dpt').click(function(e) {
 	    pic = blagues[i].pic;
 	    credits = blagues[i].credits;
 
-	    $('#picDpt').prepend('<img id="theImg" class="img-fluid" src='+ pic +' />')
+	    $('#picDpt').prepend('<img id="theImg" alt="'+ nom +'" class="img-fluid" src='+ pic +' />')
 	    $('#creditsDpt').text('@'+credits);
 	    $('#creditsDpt').attr('href','https://twitter.com/'+credits);
 	    $('#existe').show();
