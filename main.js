@@ -25,6 +25,13 @@ $('.dpt').click(function(e) {
 	  
 	}
 	$('#picDpt').prepend('<img id="theImg" class="img-fluid" src='+ pic +' />')
-
 	
 })
+
+counting();
+
+function counting() {
+	dpts = $('.dpt').length; 
+	done = blagues.length;
+	$('#count').text(done+'/'+dpts);
+}
