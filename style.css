@@ -27,7 +27,7 @@ svg
 .divmap path.active {
     fill: #767676 !important;
 }
-.divmap :hover{
+.divmap :hover {
     fill : coral;
 }
 
