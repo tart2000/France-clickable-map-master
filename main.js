@@ -34,13 +34,16 @@ $('.dpt').click(function(e) {
 	    $('#existe').show();
 	    existe = true;
 
+	    $(this).attr("class", "dpt done active");
+
 	    // $('#creditsDpt').text(credits);
 	  } 
 	  
 	} // end for 
 
 	if (existe == false) {
-		$('#afaire').show();
+		$('#afaire').show(); 
+		$(this).attr("class", "dpt active");
 	}
 	
 	

@@ -21,6 +21,12 @@ svg
     transition : fill 0.3s;
 }
 
+.divmap path.active.done {
+    fill: #003c00 !important;
+}
+.divmap path.active {
+    fill: #767676 !important;
+}
 .divmap :hover{
     fill : coral;
 }
