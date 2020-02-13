@@ -22,7 +22,7 @@ svg
 }
 
 .divmap path.active.done {
-    fill: #003c00 !important;
+    fill: #005600 !important;
 }
 .divmap path.active {
     fill: #767676 !important;
