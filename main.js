@@ -54,6 +54,7 @@ function counting() {
 	done = blagues.length;
 	$('#progress').attr("aria-valuenow" , done);
 	$("#progress").css("width", done/dpts*100+'%');
+	$('#progress').text(done+'/'+dpts+' départements');
 }
 
 function clearAll() {

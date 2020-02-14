@@ -44,6 +44,7 @@ body {
 }
 .progress, .progress-bar {
     border-radius: 0 !important;
+    height: 20px;
 }
 .footer {
     position: absolute;
