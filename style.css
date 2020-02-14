@@ -33,8 +33,14 @@ svg
 
 body {
     background-image: url('dot-grid.png');
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     position: relative;
+}
+.dom {
+    position: absolute;
+    bottom: 0px;
+    list-style: none;
+    padding-left: 0px;
 }
 .progress, .progress-bar {
     border-radius: 0 !important;
