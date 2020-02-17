@@ -8,7 +8,13 @@ svg
     margin : auto;
 }
 
-.divmap path{
+.sq {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.divmap path {
     fill: #9e9e9e;
     stroke : gold;
     stroke-width: 1px;
@@ -26,9 +32,6 @@ svg
 }
 .divmap path.active {
     fill: #767676 !important;
-}
-.divmap :hover {
-    fill : coral;
 }
 
 body {
